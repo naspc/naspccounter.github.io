@@ -6,6 +6,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; /* Full viewport height */
+    position: relative; /* Add positioning context */
+    z-index: 1; /* Ensure it's on top */
   }
   
 /* Basic Button Styles */
@@ -67,3 +69,7 @@ button {
     color: #ffffff;
   }
   
+.count-container {
+   width:400px;
+   margin:0 auto;
+}
