@@ -1,6 +1,13 @@
 body {
     background-color: salmon;
 }
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+  
 /* Basic Button Styles */
 button {
     display: inline-block;
@@ -45,8 +52,11 @@ button {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 50px;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
   }
   
@@ -57,16 +67,3 @@ button {
     color: #ffffff;
   }
   
-  /* Active (Clicked) State */
-  span.counter:active {
-    background-color: #1c6de8;
-    border-color: #1c6de8;
-  }
-  
-  /* Disabled State */
-  span.counter:disabled {
-    background-color: #bdc3c7;
-    border-color: #bdc3c7;
-    color: #ecf0f1;
-    cursor: not-allowed;
-  }
