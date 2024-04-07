@@ -42,10 +42,11 @@ button:disabled {
 }
 
 span.counter {
+  margin-top: 100px;
   display: inline-block;
   padding: 10px 20px;
   border-radius: 6px;
-  background-color: #28a745; /* Green */
+  background-color: #cdaf6b; /* Green */
   color: #fff;
   font-size: 36px;
   cursor: pointer;
@@ -55,7 +56,7 @@ span.counter {
 
 /* Hover Effect */
 span.counter:hover {
-  background-color: #218838; /* Darker green on hover */
+  background-color: #d4b978; /* Darker green on hover */
 }
 
 .count-container {
